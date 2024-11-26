@@ -1,0 +1,1912 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600;700;800&family=Anton&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* general styles */
+/* დაყავი სექციებთ კოდის ორგანიზება მნიშვნელოვანია !!! */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.store-location-conteiner {
+    padding: 12px 0;
+    color: #333;
+    display: flex;
+    font-size: 14px;
+    font-family: Poppins;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Pin__conteiner {
+    width: 15px;
+    height: 18px;
+}
+
+.Pin__conteiner {
+    display: flex;
+}
+
+.Eng__conteiner {
+    display: flex;
+    gap: 8px;
+}
+
+.Chicago__conteiner {
+    display: flex;
+    gap: 20px;
+}
+
+.USD-conteiner {
+    display: flex;
+}
+
+.Group__conteiner {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.USD-conteiner__USD {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.register {
+    display: flex;
+    gap: 20px;
+}
+
+.Sign__up__conteiner {
+    display: flex;
+}
+
+.Ecobazar-conteiner {
+    display: flex;
+    font-family: Poppins;
+    font-size: 32px;
+    padding: 24px 0;
+    font-style: normal;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart-svg-heart {
+    width: 32px;
+    height: 32px;
+}
+
+.Heart__conteiner {
+    display: flex;
+    font-size: 11px;
+    color: #4D4D4D;
+    font-family: Poppins;
+}
+
+.two-piece-products {
+    display: flex;
+    position: relative;
+    padding: 3.5px 6px 4.5px 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-products {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 3px;
+    right: 3px;
+    border-radius: 16px;
+    background-color: #2C742F;
+    position: absolute;
+
+    font-family: Poppins;
+    font-size: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+}
+
+.shopping-cart {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+}
+
+.input__conteiner {
+    display: flex;
+    padding: 12px 18px 12px 16px;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.button__conteiner {
+    position: relative;
+    left: 40px;
+}
+
+.serch__conteiner {
+    display: flex;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    line-height: 120%;
+    background-color: #00B207;
+    padding: 14px 24px;
+    justify-content: center;
+    border-radius: 0px 6px 6px 0px;
+    align-items: center;
+    gap: 12px;
+}
+
+.plant__jpj__conteiner {
+    width: 32px;
+    height: 32px;
+}
+
+.plant__conteiner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.form__conteiner {
+    display: flex;
+    border-radius: 0px 6px 6px 0px;
+
+}
+
+.search__svg__conteiner {
+    display: flex;
+    width: 400px;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px 0 0 10px;
+    padding: 12px 18px 12px 44px;
+    align-items: center;
+    gap: 8px;
+}
+
+.cart-shopping {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.span__conteiner-price {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.shopping__cart__conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.Heart__conteiner {
+    display: flex;
+    gap: 12px;
+}
+
+.Devider__continer {
+    display: flex;
+    gap: 16px;
+}
+
+.contact-conteiner a {
+    color: #999;
+    text-decoration: none;
+}
+
+/* navbar */
+
+nav {
+    background: #333;
+    padding: 16px 0;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contact-conteiner .Home__conteiner {
+    color: #FFFFFF;
+}
+
+.contact-conteiner {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    display: flex;
+    gap: 32px;
+}
+
+.PhoneCall__contener {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.number__conteiner {
+    color: #fff;
+}
+
+.nav__links__conteiner {
+    display: flex;
+    gap: 4px;
+}
+
+.Fresh-healthy-conteiner {
+    background-image: url(../fotoebi-4/gogonaaa.webp);
+    background-position: right top;
+    color: #FFF;
+    width: 872px;
+    height: 600px;
+    padding: 155px 216px 155px 45px;
+    border-radius: 10px;
+
+}
+
+.Fresh__conteiner {
+    display: flex;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    margin-bottom: 28px;
+    font-weight: 600;
+    line-height: 58px;
+    width: 400px;
+}
+
+.sale__conteiner {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    width: 240px;
+    line-height: 150%;
+}
+
+.border-radius__conteiner {
+    background-color: #FF8A00;
+    border-radius: 5px;
+    padding: 4px 12px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.free__conteiner {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 150%;
+}
+
+.button__now__conteiner {
+    display: inline-flex;
+    padding: 16px 40px;
+    font-family: Poppins;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: white;
+    border-radius: 53px;
+}
+
+.button__shop__conteiner {
+    color: #00B207;
+    font-family: Poppins;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.main-imgs {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.free-shipping {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bg-baner {
+    height: 288px;
+    width: 423px;
+}
+
+.baner {
+    background-image: url(../fotoebi-4/newbg.png);
+    background-size: cover;
+    height: 288px;
+
+}
+
+.baner-two {
+    background-image: url(../fotoebi-4/newbg2.png);
+    height: 288px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Summer-sale {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.discount {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.Only-fruit {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+
+}
+
+.Vegetable {
+    color: #666;
+    margin-bottom: 24px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.shop-now {
+    color: #00B207;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Group {
+    width: 15px;
+    height: 12.049px;
+}
+
+.best-deal {
+    display: flex;
+    flex-direction: column;
+}
+
+.best {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.special-products {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hoop-now {
+    color: #00B207;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.Products {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.delivery-truck-conteiner {
+    border-radius: 8px;
+    background: #FFF;
+    margin-top: 24px;
+    box-shadow: 0px 8px 40px 0px rgba(0, 38, 3, 0.08);
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+}
+
+.headphones {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.customer-support {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.instant-access {
+    color: #999;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.delivery {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.popular-categories-conteiner {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.view-all {
+    color: #00B207;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.View {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.fruit-container {
+    display: flex;
+    margin-top: 32px;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.fruits {
+    display: inline-flex;
+    padding: 16px 0px 24px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    transition: border 0.5s ease-out;
+}
+
+.fruits:hover {
+    border: 1px solid #2C742F;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+
+.fruits:hover .fresh-fruit {
+    color: #2C742F;
+}
+
+.fresh-fruit {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.vegetables {
+    display: inline-flex;
+    padding: 16px 0px 24px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    transition-duration: border 0.1s ease-out;
+    background: #fff;
+}
+
+.vegetables:hover {
+    border: 1px solid #2C742F;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+
+.fruits:hover .fresh-vegetables {
+    color: #2C742F;
+}
+
+.fresh-vegetables {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sale {
+    display: inline-flex;
+    color: #FFF;
+    font-family: Poppins;
+    padding: 3px 8px;
+    border: none;
+    justify-content: center;
+    position: absolute;
+    margin: 16px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background: #EA4B48;
+}
+
+.Products-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.apple {
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    flex: 1;
+    border-bottom: none;
+    position: relative
+}
+
+.green-eye {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF;
+    stroke-width: 1px;
+    stroke: #F2F2F2;
+}
+
+.heart-chinese {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF;
+    stroke-width: 1px;
+    stroke: #F2F2F2;
+}
+
+.green {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price-price {
+    padding: 12px;
+}
+
+.bag {
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+}
+
+.fresh-apple {
+    display: flex;
+    gap: 2px;
+}
+
+.bag-bag {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.span {
+    color: #999;
+    font-family: Poppins;
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.span-span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.green-cabbage {
+    color: #2C742F;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bag-chinese {
+    display: flex;
+    background-color: #00B207;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+
+.best-deal-month {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.best-sale-month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sale-of-the-month {
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 16px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.time {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Poppins;
+    margin-top: 8px;
+    gap: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.apple-juice {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.content-content {
+    color: #FFFFFF99;
+}
+
+.days {
+    display: flex;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+.sale-month {
+    background-image: url(../fotoebi-4/sale-month.png);
+    background-repeat: no-repeat;
+    color: #FFF;
+    border-radius: 8px;
+    flex-direction: column;
+    display: flex;
+    margin-top: 95px;
+    height: 536px;
+    width: 424px;
+    align-items: center;
+}
+
+.sale-month-conteiner {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 60px;
+}
+
+.low-fat-meat {
+    background-image: url(../fotoebi-4/low-fat-meat.png);
+    background-repeat: no-repeat;
+    color: #FFF;
+    border-radius: 8px;
+    flex-direction: column;
+    display: flex;
+    margin-top: 95px;
+    height: 536px;
+    width: 424px;
+    align-items: center;
+}
+
+.started {
+    color: #FFF;
+    text-align: center;
+    margin-top: 14px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.meat-botton {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+.meat__now__botton {
+    display: inline-flex;
+    padding: 16px 40px;
+    font-family: Poppins;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: white;
+    border-radius: 53px;
+}
+
+.meat-price {
+    color: #FF8A00;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.started-meat {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fresh-fruit-free {
+    background-image: url(../fotoebi-4/fresh-fruit-up5.png);
+    background-repeat: no-repeat;
+    color: #1A1A1A;
+    border-radius: 8px;
+    flex-direction: column;
+    display: flex;
+    margin-top: 95px;
+    height: 536px;
+    width: 424px;
+    align-items: center;
+}
+
+.up-to-fruit {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.discount-fruit {
+    color: #FCC900;
+    display: flex;
+    padding: 6px 12px;
+    align-items: flex-start;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background: #1A1A1A;
+}
+
+.started-fruit {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.chinese-cabbage-conteiner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.fruit-cards {
+    display: flex;
+    flex: 1;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.hot-deals {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.chinese {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    padding: 60px 0;
+
+
+}
+
+.best-sale {
+    display: inline-flex;
+    color: #FFF;
+    font-family: Poppins;
+    padding: 3px 8px;
+    border: none;
+    justify-content: center;
+    position: absolute;
+    margin: 24px 103px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background: #2388FF;
+}
+
+.sale-apple {
+    display: inline-flex;
+    color: #FFF;
+    font-family: Poppins;
+    padding: 3px 8px;
+    border: none;
+    justify-content: center;
+    position: absolute;
+    margin: 24px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background: #EA4B48;
+}
+
+.add-to-cart {
+    display: flex;
+    width: 371px;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 43px;
+    background: #00B207;
+}
+
+.best-sale-apple {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #2C742F;
+    background: #FFF;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+    width: 528px;
+}
+
+.best-sale-apple img {
+    display: flex;
+}
+
+.hart-hart-chinese {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+}
+
+.heart-add-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.chinese-cabbage-cart {
+    object-fit: cover;
+    width: 525px;
+    height: auto;
+}
+
+.cabbage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+
+    flex-direction: column;
+}
+
+.chinese-cabbage {
+    color: #2C742F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.price-span {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.feedback {
+    display: flex;
+    margin-top: 8px;
+
+}
+
+.feedback-span {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.hurry-up {
+    color: #999;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.day-pointer {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.day-pointer-day {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.offer-ends {
+    display: flex;
+    margin-top: 18px;
+}
+
+.days-houars-mins-secs {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.days-houars {
+    display: flex;
+    color: #999;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+
+
+.viwe-deals {
+    display: flex;
+
+}
+
+.bag-chinese-white {
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.green-chinese-cabbage {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.vegetables-container {
+    background-image: url(../fotoebi-4/vegetables.jpg);
+    background-position: top center;
+    background-size: cover;
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px;
+    gap: 28px;
+    border-radius: 10px;
+}
+
+.summer-sale-shipping {
+    display: flex;
+    flex-direction: column;
+}
+
+.sumer-money-back {
+    color: #FFF;
+    font-family: Poppins;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.money-summer-sale {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.money-back-discount {
+    color: #FF8A00;
+    font-family: Poppins;
+    margin-bottom: 16px;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.guarantee-free {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    max-width: 442px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.meat-botton-shop-now {
+    color: #00B207;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 28px;
+    line-height: 150%;
+}
+
+.button-shop {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.meat-now-botton {
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 195px;
+    border-radius: 43px;
+    background: #00B207;
+}
+
+.chinese-cabbage {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
+.lastes-news-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
+.lastes-news {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.month {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.calendar {
+    background-image: url(../fotoebi-4/lemon-curabituer.png);
+    background-repeat: no-repeat;
+    height: 397px;
+}
+
+
+.Curabitur-porttitor {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    gap: 24px;
+    margin-bottom: 85px;
+}
+
+.lemon {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.08);
+}
+
+.lemon-background {
+    width: 424px;
+    height: 324px;
+    background-image: url('../fotoebi-4/lemon-curabituer.png');
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.type-food {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #E6E6E6;
+}
+
+.new-food {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.tag-food-admin {
+    display: flex;
+    gap: 4px;
+}
+
+.fresh-lemon {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.fermentum {
+    color: #2C742F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    width: 376px;
+}
+
+.by-food {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.admin {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.comments {
+    color: #666;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.calendar-november {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+    padding: 6px 15px 10px 15px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.eighteen {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.november {
+    color: #808080;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.food {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.read-more {
+    color: #00B207;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.lemon-juice {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.read-arrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.eggs-background {
+    width: 424px;
+    height: 324px;
+    background-image: url('../fotoebi-4/eggs.png');
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.eget-lobortis {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.cezar-background {
+    width: 424px;
+    height: 324px;
+    background-image: url('../fotoebi-4/cezari.png');
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.maencenas-blandit {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.client-testimonials {
+    background-color: #F2F2F2;
+    display: flex;
+    padding: 60px 0px;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.arrow-left {
+    display: flex;
+    gap: 12px;
+    border-radius: 50%;
+    background-color: #FFF;
+    stroke-width: 1px;
+    stroke: #E6E6E6;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+
+}
+
+.testimonial-arrow {
+    display: flex;
+    gap: 12px;
+}
+
+.arrow {
+    display: flex;
+    width: 15px;
+    height: 12.049px;
+}
+
+.arrow-green {
+    display: flex;
+    border-radius: 50%;
+    background-color: #00B207;
+    stroke-width: 1px;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+}
+
+.testimonial-card {
+    display: flex;
+    padding: 24px;
+    width: 424px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.01);
+}
+
+.vector {
+    display: flex;
+    gap: 24px;
+}
+
+.Phasellus-imperdiet {
+    color: #4D4D4D;
+    width: 376px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.robert-customer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 376px;
+    padding-top: 8px;
+    justify-content: space-between;
+}
+
+.eleanor-pena {
+    width: 56px;
+    height: 56px;
+}
+
+.eleanor-customer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.robert-fox {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+.customer {
+    color: #999;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.steps-company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.companys {
+    display: flex;
+    margin: 60px 0 60px 0;
+
+}
+
+.follow-us-on-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.follow-instagram {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.instagram-photos {
+    display: flex;
+    gap: 24px;
+}
+
+.instagram-lettuce {
+    display: flex;
+    position: relative;
+    transition: opacity 0.5s, ease-out;
+}
+
+.instagram-lettuce:hover .instagram-svg {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.instagram-svg {
+    display: flex;
+    position: absolute;
+    top: 84px;
+    left: 84px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-out;
+}
+
+.subcribe-newsletter {
+    display: flex;
+    background-color: #F7F7F7;
+    height: 162px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.subcribe-folloow {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.subcribe-folloow-instagram {
+    width: 448px;
+    color: #999;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-your-email {
+    position: relative;
+}
+
+.input {
+    padding: 14px 24px;
+    width: 492px;
+    border-radius: 46px;
+    border: 1px solid #E6E6E6;
+}
+
+.form-address {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+}
+
+.form-btn {
+    padding: 15px 40px;
+    border-radius: 43px;
+    color: #fff;
+    border: none;
+    background: #00B207;
+    position: absolute;
+    right: 0;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+}
+
+.facebook {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00B207;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1A1A1A;
+}
+
+.contant-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 112px;
+}
+
+.list-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.ecobazar-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ecobazar-logo {
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    margin-top: 62px;
+    gap: 8px;
+}
+
+.ecobazar {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.morbi-lobortis {
+    display: flex;
+}
+
+.cursus-porttitor {
+    color: #808080;
+    width: 336px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contact-us {
+    display: flex;
+    align-items: center;
+    margin-bottom: 66px;
+    gap: 16px;
+}
+
+.number {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    box-shadow: 0px 1.5px 0px 0px #20B526;
+}
+
+.or {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.ecommerce-ecobaar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    box-shadow: 0px -1px 0px 0px #333;
+}
+
+.rights-reserved {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.ecobazar-ecommerce {
+    display: flex;
+    gap: 8px;
+}
+
+.apple-pay {
+    display: flex;
+    width: 45px;
+    height: 31.765px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333333;
+    background-color: #1A1A1A;
+}
+
+.discover-logo {
+    display: flex;
+    width: 45px;
+    height: 31.765px;
+    border-radius: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    border: 1px solid #333333;
+    background-color: #1A1A1A;
+}
+
+.apple-logo {
+    width: 39.706px;
+    height: 18.765px;
+}
+
+.Secure {
+    display: flex;
+    width: 65px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5.294px;
+    border: 1px solid #333;
+    background-color: #1A1A1A;
+}
+
+.payment {
+    width: 11px;
+    height: 11px;
+}
+
+.secure-payment {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blok-payment {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.list-wrapper-account {
+    list-style: none;
+}
+
+.account {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.about {
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.my-account-history {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.shoping-history {
+    color: #999;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.shoping-cart-history {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}

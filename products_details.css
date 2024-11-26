@@ -1,0 +1,1166 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600;700;800&family=Anton&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lincoln {
+    background: #333;
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
+}
+
+.contact-conteiner .Home-green {
+    color: #00B207;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.store-location-conteiner {
+    padding: 12px 0;
+    color: #B3B3B3;
+    display: flex;
+    font-size: 14px;
+    font-family: Poppins;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Pin__conteiner {
+    width: 15px;
+    height: 18px;
+}
+
+.Pin__conteiner {
+    display: flex;
+}
+
+.Eng__conteiner {
+    display: flex;
+    gap: 8px;
+}
+
+.Chicago__conteiner {
+    display: flex;
+    gap: 20px;
+}
+
+.USD-conteiner {
+    display: flex;
+}
+
+.Group__conteiner {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.USD-conteiner__USD {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.register {
+    display: flex;
+    gap: 20px;
+}
+
+.Sign__up__conteiner {
+    display: flex;
+}
+
+.Ecobazar-conteiner {
+    display: flex;
+    font-family: Poppins;
+    font-size: 32px;
+    padding: 24px 0;
+    font-style: normal;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart-svg-heart {
+    width: 32px;
+    height: 32px;
+}
+
+.Heart__conteiner {
+    display: flex;
+    font-size: 11px;
+    color: #4D4D4D;
+    font-family: Poppins;
+}
+
+.two-piece-products {
+    display: flex;
+    position: relative;
+    padding: 3.5px 6px 4.5px 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-products {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 3px;
+    right: 3px;
+    border-radius: 16px;
+    background-color: #2C742F;
+    position: absolute;
+
+    font-family: Poppins;
+    font-size: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+}
+
+.shopping-cart {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+}
+
+.input__conteiner {
+    display: flex;
+    padding: 12px 18px 12px 16px;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.button__conteiner {
+    position: relative;
+    left: 40px;
+}
+
+.serch__conteiner {
+    display: flex;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    line-height: 120%;
+    background-color: #00B207;
+    padding: 14px 24px;
+    justify-content: center;
+    border-radius: 0px 6px 6px 0px;
+    align-items: center;
+    gap: 12px;
+}
+
+.plant__jpj__conteiner {
+    width: 32px;
+    height: 32px;
+}
+
+.plant__conteiner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.form__conteiner {
+    display: flex;
+    border-radius: 0px 6px 6px 0px;
+
+}
+
+.search__svg__conteiner {
+    display: flex;
+    width: 400px;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px 0 0 10px;
+    padding: 12px 18px 12px 44px;
+    align-items: center;
+    gap: 8px;
+}
+
+.cart-shopping {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.span__conteiner-price {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.shopping__cart__conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.Heart__conteiner {
+    display: flex;
+    gap: 12px;
+}
+
+.Devider__continer {
+    display: flex;
+    gap: 16px;
+}
+
+.contact-conteiner a {
+    color: #666;
+    text-decoration: none;
+}
+
+/* navbar */
+
+nav {
+    padding: 16px 0;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contact-conteiner .Home__conteiner {
+    color: #FFFFFF;
+}
+
+.contact-conteiner {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    display: flex;
+    gap: 32px;
+}
+
+.PhoneCall__contener {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.number__conteiner {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.nav__links__conteiner {
+    display: flex;
+    gap: 4px;
+}
+
+.breadcrumbs {
+    background-image: url(../fotoebi-4/Breadcrumbs1.svg);
+    display: flex;
+    height: 120px;
+    padding: 16px;
+
+}
+
+.breadcrumbs-home {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.categories {
+    color: #999;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.vegetables {
+    color: #999;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.chinese-cabbage {
+    color: #00B207;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    list-style-type: none
+}
+
+.shoping__products {
+    display: flex;
+    margin-top: 32px;
+}
+
+.products {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-image {
+    display: flex;
+    margin-top: 53px
+}
+
+.shoping__products__image {
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.shoping__products__chinese-cabbage {
+    display: flex;
+    margin: 0 12px;
+}
+
+.products__shoping__chines-cabbage {}
+
+.products__chinese-cabbage {
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.chinese__cabbage__in-stock {
+    display: flex;
+    color: #2C742F;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    background: rgba(32, 181, 38, 0.20);
+}
+
+.shoping__products__cabbage {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.products__chinese-cabbage__rating {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.products__chinese-cabbage_sku {
+    color: #333;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.products__chinese__cabbage-numbers {
+    color: #666;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.forty__eight__percent-discount {
+    color: #B3B3B3;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: line-through;
+    text-decoration-line: strikethrough;
+}
+
+.products__chinese__cabbage-price {
+    color: #2C742F;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.products__chinese__cabbage-discount {
+    padding: 3px 10px;
+    align-items: flex-start;
+    gap: 6px;
+    border-radius: 30px;
+    background: rgba(234, 75, 72, 0.10);
+    color: #EA4B48;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}
+
+.cabbage-discount {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.products__chinese__cabbage-price-discount {
+    display: flex;
+    align-items: center;
+    padding: 26px 0 20px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.farmaty {
+    color: #555;
+    font-family: "Dancing Script";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Brand {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.kk {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.products__chinese__cabbage-farmary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+    border: 0.8px solid #E6E6E6;
+    background: #FFF;
+}
+
+.share-item {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.products__chinese__cabbage-class {
+    width: 568px;
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.products__chinese__cabbage-minus {
+    display: flex;
+    padding: 8px;
+    width: 100px;
+    justify-content: space-around;
+    border-radius: 170px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+
+.add-to-cart {
+    display: flex;
+    width: 371px;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 43px;
+    background: #00B207;
+}
+
+.products__chinese__cabbage-add-to-cart {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.products__chinese__cabbage-heart {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 43px;
+    background: rgba(32, 181, 38, 0.10);
+}
+
+.products__chinese__cabbage-category {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.products__chinese__cabbage-vegetables {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.products__chinese__cabbage__category-vagetables {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.products__chinese__cabbage-chinese {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.products__chinese__cabbage-descriptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
+}
+
+.descriptions {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    background: #FFF;
+    box-shadow: 0px -2px 0px 0px #20B526 inset;
+    padding-bottom: 17px;
+}
+
+.Additional-information {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.products__chinese__cabbage-commodo {
+    width: 648px;
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.products__chinese__cabbage-Customer {
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.check {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background: #00B207;
+    align-items: center;
+    justify-content: center;
+}
+
+.products__chinese__cabbage-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fresh__leaves__provides {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.products__chinese__cabbage__fresh-provice {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.products__chinese__cabbage-maximus {
+    color: #808080;
+    width: 648px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.products__chinese__cabbage-shopper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shopper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.price-tag {
+    display: flex;
+    width: 537px;
+    padding: 24px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.mony-dicount {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.organic-vegetables {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.shopper-leaf {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.realted-products-vegetable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0 32px;
+}
+
+.Related-Products {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.apple {
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    flex: 1;
+    border-radius: 8px;
+    position: relative
+}
+
+.sale {
+    display: inline-flex;
+    color: #FFF;
+    font-family: Poppins;
+    padding: 3px 8px;
+    border: none;
+    justify-content: center;
+    position: absolute;
+    margin: 16px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background: #EA4B48;
+}
+
+.price-price {
+    padding: 12px;
+}
+
+.green {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.span-span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fresh-apple {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.span {
+    color: #999;
+    font-family: Poppins;
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bag-bag {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.bag {
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+}
+
+.Products-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.baner__vegetable__cabbage {
+    border: 1px solid #2C742F;
+    background: #FFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+    position: relative
+}
+
+.heart-chinese {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF;
+    stroke-width: 1px;
+    stroke: #F2F2F2;
+}
+
+.green-eye {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF;
+    stroke-width: 1px;
+    stroke: #F2F2F2;
+}
+
+.green {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.green-cabbage {
+    color: #2C742F;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bag-chinese {
+    display: flex;
+    background-color: #00B207;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.subcribe-newsletter {
+    display: flex;
+    background-color: #F7F7F7;
+    height: 162px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.subcribe-folloow {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.subcribe-folloow-instagram {
+    width: 448px;
+    color: #999;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-your-email {
+    position: relative;
+}
+
+.input {
+    padding: 14px 24px;
+    width: 492px;
+    border-radius: 46px;
+    border: 1px solid #E6E6E6;
+}
+
+.form-address {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+}
+
+.form-btn {
+    padding: 15px 40px;
+    border-radius: 43px;
+    color: #fff;
+    border: none;
+    background: #00B207;
+    position: absolute;
+    right: 0;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+}
+
+.facebook {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00B207;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1A1A1A;
+}
+
+.contant-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 112px;
+}
+
+.list-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.ecobazar-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ecobazar-logo {
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    margin-top: 62px;
+    gap: 8px;
+}
+
+.ecobazar {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.morbi-lobortis {
+    display: flex;
+}
+
+.cursus-porttitor {
+    color: #808080;
+    width: 336px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contact-us {
+    display: flex;
+    align-items: center;
+    margin-bottom: 66px;
+    gap: 16px;
+}
+
+.number {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    box-shadow: 0px 1.5px 0px 0px #20B526;
+}
+
+.or {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.ecommerce-ecobaar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    box-shadow: 0px -1px 0px 0px #333;
+}
+
+.rights-reserved {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.ecobazar-ecommerce {
+    display: flex;
+    gap: 8px;
+}
+
+.apple-pay {
+    display: flex;
+    width: 45px;
+    height: 31.765px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333333;
+    background-color: #1A1A1A;
+}
+
+.discover-logo {
+    display: flex;
+    width: 45px;
+    height: 31.765px;
+    border-radius: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    border: 1px solid #333333;
+    background-color: #1A1A1A;
+}
+
+.apple-logo {
+    width: 39.706px;
+    height: 18.765px;
+}
+
+.Secure {
+    display: flex;
+    width: 65px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5.294px;
+    border: 1px solid #333;
+    background-color: #1A1A1A;
+}
+
+.payment {
+    width: 11px;
+    height: 11px;
+}
+
+.secure-payment {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blok-payment {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.list-wrapper-account {
+    list-style: none;
+}
+
+.account {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.about {
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.my-account-history {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.shoping-history {
+    color: #999;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.shoping-cart-history {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
